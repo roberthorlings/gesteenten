@@ -1,0 +1,53 @@
+body {
+    font-family: "Poppins"
+}
+
+h1, nav, main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 { 
+    color: #3e69dc;
+}
+
+nav a {
+    color: black;
+}
+
+nav a.current {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    width: 65%;
+}
+
+aside {
+    width: 35%;
+}
+
+aside .contents {
+    position: fixed;
+}
+
+aside figure {
+    text-align: center;
+    margin: 30px;
+    display: none;
+}
+
+aside img { 
+    max-width: 450px;
+}
+
+aside .explanation {
+    margin: 30px;
+    display: none;
+    max-width: 450px;
+}
+        
